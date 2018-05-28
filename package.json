@@ -1,0 +1,34 @@
+{
+  "name": "telefe-app",
+  "version": "0.1.0",
+  "description": "API Rest con NodeJs MongoDB para examen técnico para Telefe",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.13.3",
+    "mongodb": "^2.1.6"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-sample"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "apirest",
+    "javascript",
+    "telefe"
+  ],
+  "author": "Federico Doll",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
