@@ -26,7 +26,17 @@ app.get('/', function(req,res){
 
 app.get('/search/:word', (req, res) => {
 	var pos = getPosiciones(req.params.word);
-	
+	var log = {	palabra: req.params.word,
+				posiciones: pos,
+				fecha: new Date()
+				}
+	db.collection(Logs).insert(log, function(err, doc) {
+	    if (err) {
+	      handleError(res, err.message, "Failed to create log.");
+	    } else {
+	      res.status(201).json(doc.ops[0]);
+	    }
+	});
  	res.send(pos)
 })
 
