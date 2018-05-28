@@ -1,7 +1,7 @@
 {
-  "name": "telefe-app",
+  "name": "matrixSearch",
   "version": "0.1.0",
-  "description": "API Rest con NodeJs MongoDB para examen técnico para Telefe",
+  "description": "API Rest con NodeJs MongoDB para examen técnico Telefe",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
@@ -12,18 +12,18 @@
     "mongodb": "^2.1.6"
   },
   "engines": {
-    "node": "4.0.0"
+    "node": "8.11.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
+    "url": "https://github.com/FDollB/matrixSearch"
   },
   "keywords": [
     "node",
-    "heroku",
     "express",
     "apirest",
     "javascript",
+    "matrix",
     "telefe"
   ],
   "author": "Federico Doll",
